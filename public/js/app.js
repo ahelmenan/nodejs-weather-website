@@ -32,7 +32,7 @@ weatherForm.addEventListener('submit', (e) => {
             
         else {
             ms1.textContent =  data.location;
-            ms2.textContent =  data.address;
+            ms2.textContent =  data.forcast.sum;
         }
     })
 })

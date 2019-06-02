@@ -67,7 +67,7 @@ app.get('/weather', (req, res) => {
                                     return res.send({error});
                                 return res.send({ 
                                     forcast : forcastData,
-                                    location : place_name, 
+                                    location : place_name,
                                     address,
                                 })
                         })

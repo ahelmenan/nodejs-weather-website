@@ -12,7 +12,7 @@ const forcast = (lat, long, callback) => {
         else
             
                 callback(undefined, 
-                  `it's  ${temperature}° it's ${precipProbability}% raining`);
+                 { sum :`it's  ${temperature}° it's ${precipProbability}% raining`});
             })
 };
 
