@@ -14,7 +14,14 @@
      {{>header}}
      <p>Use this site t get your weather</p>
      <form>
-         <input placeholder="location">
+         <input type="text" id="form1" list="search">
+         <datalist id   = "search" >
+            <option   value="Khouribga"> 
+            <option   value="CasaBlanca">
+            <option   value="Boston">
+            <option   value="NewYork">
+            <option   value="Paris">
+        </datalist>
          <button>Search</button>
          <p id = "message-1"></p>
          <p id = "message-2"></p>
