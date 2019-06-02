@@ -12,7 +12,7 @@ const forcast = (lat, long, callback) => {
         else
             
                 callback(undefined, 
-                 { sum :`${summary} it's currently  ${temperature}° it's ${precipProbability}% raining , timezone : ${timezone}`});
+                 { sum :`${summary} it's currently  ${temperature}° there is a  ${precipProbability}% chance of rain , timezone : ${timezone}`});
             })
 };
 
